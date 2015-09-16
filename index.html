@@ -2,9 +2,17 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <!-- STYLE -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link rel="stylesheet" href="style/main.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
+  <link rel="stylesheet" href="style/jquery.fancybox.css" type="text/css" media="screen" />
+  <!-- FONTS -->
+  <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+  <!-- SCRIPT -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"></script>
+  <script src="js/jquery.fancybox.js"></script>
   <script src="js/main.js"></script>
   <title>Dave James Web Developer</title>
 </head>
@@ -42,7 +50,6 @@
 
   <div class="container">
     <div class="row">
-
       <div class="col-md-4 about">
         <img class="img-responsive"src="https://scontent-lhr3-1.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/11039049_10153143983635860_564299254986012934_n.jpg?oh=b2202238b7219718343ff91dd2419e64&oe=5667E681" alt="">
       </div>
@@ -58,12 +65,47 @@
       </div>
     </div>
   </div>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 spacer"></div>
+    </div>
+  </div>
 
   <div class="container">
     <div class="row">
-      <div class="col-md-4 projects"></div>
-      <div class="col-md-4 projects"></div>
-      <div class="col-md-4 projects"></div>
+      <div class="col-md-4 projects">
+        <h2>Celeste App</h2>
+          <a class="celeste-gallery" rel="celeste" href="assets/celeste1.png" title="  The Celeste App recieves Lat & Long Coordinates from selected ships"><img class="img-responsive" src="assets/celeste1.png"/></a>
+          <div class="hidden">
+          <a class='celeste-gallery' rel="celeste" href="assets/celeste2.png" title="  The yellow markers are a ships previous position while the red is its current"><img src="assets/celeste2.png"/></a>
+          <a class='celeste-gallery' rel="celeste" href="assets/celeste3.png"><img src="assets/celeste3.png"/></a>
+          </div>
+      </div>
+      <div class="col-md-4 projects">
+        <h2>TicTacToe</h2>      <p><a target="_blank" href="http://abcdave88.github.io/">Fancy a game?</a></p>
+
+        <a href="assets/tictac.png" class="tic-gallery" rel="tictac" title="  2 player brower based game"><img class="img-responsive"  src="assets/tictac.png"/></a>
+
+      <div class='hidden'>
+          <a href="assets/tictac3.png" class="tic-gallery" rel="tictac" title="  2 player brower based game"><img src="assets/tictac3.png"/></a>
+          <a href="assets/tictac2.png" class="tic-gallery" rel="tictac" title="  2 player brower based game"><img src="assets/tictac2.png"/></a>
+      </div>
+    </div>
+    <div class="col-md-4 projects"></div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 spacer"></div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 foot">
+        
+      </div>
     </div>
   </div>
 

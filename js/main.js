@@ -4,35 +4,35 @@ $(document).ready(function(){
 
    // $("celeste-gallery").fancybox()  
 
-//    $(function() {
-//     $('a.celeste-gallery').fancybox({
-//                    type:'image',
-//                    padding: 0,
-//                    scrolling: 'no',
-//                    helpers : {
-//                         overlay: {
-//                            css: {'background-color': '#000'},
-//                            opacity: 0.3
-//                         },
-//                         title : { type : 'inside' }
-//                    }
-//          });
-// });
+   $(function() {
+    $('a.celeste-gallery').fancybox({
+                   type:'image',
+                   padding: 0,
+                   scrolling: 'no',
+                   helpers : {
+                        overlay: {
+                           css: {'background-color': '#000'},
+                           opacity: 0.3
+                        },
+                        title : { type : 'inside' }
+                   }
+         });
+});
 
-//    $(function() {
-//     $('a.tic-gallery').fancybox({
-//                    type:'image',
-//                    padding: 0,
-//                    scrolling: 'no',
-//                    helpers : {
-//                         overlay: {
-//                            css: {'background-color': '#000'},
-//                            opacity: 0.3
-//                         },
-//                         title : { type : 'inside' }
-//                    }
-//          });
-// });
+   $(function() {
+    $('a.tic-gallery').fancybox({
+                   type:'image',
+                   padding: 0,
+                   scrolling: 'no',
+                   helpers : {
+                        overlay: {
+                           css: {'background-color': '#000'},
+                           opacity: 0.3
+                        },
+                        title : { type : 'inside' }
+                   }
+         });
+});
 
 //   skrollr.init({
 //     smoothScrolling: false, 
@@ -41,11 +41,11 @@ $(document).ready(function(){
 
   
 
-//   // $("a.celeste-gallery")
-//   //   .attr('rel', 'celeste')
-//   //   .fancybox({
-//   //       padding : 0
-//   //   });
+  // $("a.celeste-gallery")
+  //   .attr('rel', 'celeste')
+  //   .fancybox({
+  //       padding : 0
+  //   });
 
   $('#jumbo2').hide();
   $('#jumbo3').hide();

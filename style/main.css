@@ -29,16 +29,33 @@
 }
 
 .about img{
-  height: 100%;
+  width: 80%;
 }
 
 .projects{
-  margin-top: 1em;
+  right: 1.2%;
   border: 1px solid black;
   height: 22em;
   right: 1.2%;
+  /*top: 1em;*/
 }
 
+.projects img{
+  width: 90%;
+}
 
+.foot{
+  height:6em;
+  border: 1px solid black;
+  right: 2.5%;
+  /*top: 1em;*/
+  /*bottom: 2em;*/
+}
 
+.hidden{
+  display: none;
+}
 
+.spacer{
+  height:1em;
+}
