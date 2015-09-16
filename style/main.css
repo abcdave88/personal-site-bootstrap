@@ -1,0 +1,44 @@
+.jumbotron{
+  position: relative;
+  height:22em;
+  width: 100%;
+  margin-top: 1em;
+}
+
+.jumbotron img{
+  border-radius: 1em;
+  position: absolute;
+  width: 90%;
+  height: 20em;
+  top: 1em ;
+}
+
+.jumbotron h1{
+  position: absolute;
+  color: white;
+  z-index: 1;
+  letter-spacing: 10px;
+  top:43%;
+  left:41%;
+}
+
+.about{
+  border: 1px solid black;
+  height: 22em;
+  /*width: 100%;*/
+}
+
+.about img{
+  height: 100%;
+}
+
+.projects{
+  margin-top: 1em;
+  border: 1px solid black;
+  height: 22em;
+  right: 1.2%;
+}
+
+
+
+
