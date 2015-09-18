@@ -2,7 +2,6 @@ console.log('hello world')
 
 $(document).ready(function(){
 
-   // $("celeste-gallery").fancybox()  
 
    $(function() {
     $('a.celeste-gallery').fancybox({
@@ -65,7 +64,7 @@ function changeJumbo(){
       });
   });
 }
-// changeJumbo();
+changeJumbo();
 
 
 });//end of document.ready
